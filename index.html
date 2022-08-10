@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:image" content=""> <!-- inserte image -->
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- animate.style -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>John's Portfolio</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-M97W09S4LH"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        window.dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-M97W09S4LH");
+    </script>
+  </head>
+  <body>
+    <header>
+      <nav id="nav-flex-container">
+        <p>Welcome</p>
+        <img class="menu-icon" src="Images/Menu.svg" alt="Menu icon" />
+      </nav>
+    </header>
+    <section>
+      <header id="header-flex-container">
+        <div class="nav-ul-container animate__animated">
+          <i class="fa-solid fa-x d-none close-nav w-100 text-end p-4"></i>
+          <ul class="nav-ul">
+            <li>
+              <a
+                class="nav-item nav-item1 text-decoration-none"
+                href="#header-flex-container"
+                >Portfolio</a
+              >
+            </li>
+            <li>
+              <a
+                class="nav-item nav-item2 text-decoration-none"
+                href="#about-me"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                class="nav-item nav-item3 text-decoration-none"
+                href="#footer-section"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+        <h1>
+          Hey there. I’m John <br /><span>I’m a Web Developer</span>
+        </h1>
+        <p>
+          I can help you build a product, feature or website Look through some
+          of my work and experience! If you like what you see and have a project
+          you need coded, don’t hestiate to contact me.
+        </p>
+        <ul class="social-ul">
+          <li>
+            <a href="#"><img src="Images/twitter.svg" alt="twitter icon" /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="Images/Linkedin.svg" alt="linkedin icon"
+            /></a>
+          </li>
+          <li>
+            <a href="#"><img src="Images/medium.svg" alt="medium icon" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="Images/github.svg" alt="github icon" /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="Images/angellist.svg" alt="angellist icon"
+            /></a>
+          </li>
+        </ul>
+        <a href="#">
+          <img src="Images/Disabled.svg" alt="go down icon" />
+        </a>
+      </header>
+    </section>
+    <section id="my-recent-works">
+      <h2 class="section-header">My Recent Works</h2>
+
+      <div id="Project-detail" class="d-none">
+        <div class="internal-details-div position-relative">
+          <i class="fa-solid fa-x close-detail"></i>
+          <img src="#" class="w-100 detail-img" alt="" />
+          <h3 class="detail-h3">Keeping track of hundreds of components</h3>
+          <ul class="list-unstyled detail-technologies"></ul>
+          <p class="detail-p"></p>
+          <a href="" class="btn detail-btn text-white seeLive"
+            >See Live <img src="Images/Export.svg" alt="Export Icon"
+          /></a>
+          <a href="" class="btn detail-btn text-white seeSource"
+            >See Source <img src="Images/GitHubw.svg" alt="GitHub Icon"
+          /></a>
+        </div>
+      </div>
+      <div id="cards-grid-container">
+        <div class="card">
+          <img
+            class="card-img"
+            src="Images/SnapshootPortfolio.png"
+            alt="project 1 image"
+          />
+          <div class="card-flex-container">
+            <h3 class="card-title">Multi-Post Stories Gain+Glory</h3>
+            <ul class="tags-flex-container">
+              <li class="tag">Ruby on rails</li>
+              <li class="tag">css</li>
+              <li class="tag">JavaScript</li>
+              <li class="tag">html</li>
+            </ul>
+            <button
+              type="button"
+              class="card-btn project-btn"
+              data-projectId="1"
+            >
+              See Project
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card-img"
+            src="Images/SnapshootPortfolio.png"
+            alt="project 2 image"
+          />
+          <div class="card-flex-container">
+            <h3 class="card-title">Multi-Post Stories Gain+Glory</h3>
+            <ul class="tags-flex-container">
+              <li class="tag">Ruby on rails</li>
+              <li class="tag">css</li>
+              <li class="tag">JavaScript</li>
+              <li class="tag">html</li>
+            </ul>
+            <button
+              type="button"
+              class="card-btn project-btn"
+              data-projectId="2"
+            >
+              See Project
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card-img"
+            src="Images/SnapshootPortfolio.png"
+            alt="project 3 image"
+          />
+          <div class="card-flex-container">
+            <h3 class="card-title">Multi-Post Stories Gain+Glory</h3>
+            <ul class="tags-flex-container">
+              <li class="tag">Ruby on rails</li>
+              <li class="tag">css</li>
+              <li class="tag">JavaScript</li>
+              <li class="tag">html</li>
+            </ul>
+            <button
+              type="button"
+              class="card-btn project-btn"
+              data-projectId="3"
+            >
+              See Project
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card-img"
+            src="Images/SnapshootPortfolio.png"
+            alt="project 4 image"
+          />
+          <div class="card-flex-container">
+            <h3 class="card-title">Multi-Post Stories Gain+Glory</h3>
+            <ul class="tags-flex-container">
+              <li class="tag">Ruby on rails</li>
+              <li class="tag">css</li>
+              <li class="tag">JavaScript</li>
+              <li class="tag">html</li>
+            </ul>
+            <button
+              type="button"
+              class="card-btn project-btn"
+              data-projectId="4"
+            >
+              See Project
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card-img"
+            src="Images/SnapshootPortfolio.png"
+            alt="project 5 image"
+          />
+          <div class="card-flex-container">
+            <h3 class="card-title">Multi-Post Stories Gain+Glory</h3>
+            <ul class="tags-flex-container">
+              <li class="tag">Ruby on rails</li>
+              <li class="tag">css</li>
+              <li class="tag">JavaScript</li>
+              <li class="tag">html</li>
+            </ul>
+            <button
+              type="button"
+              class="card-btn project-btn"
+              data-projectId="5"
+            >
+              See Project
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card-img"
+            src="Images/SnapshootPortfolio.png"
+            alt="project 6 image"
+          />
+          <div class="card-flex-container">
+            <h3 class="card-title">Multi-Post Stories Gain+Glory</h3>
+            <ul class="tags-flex-container">
+              <li class="tag">Ruby on rails</li>
+              <li class="tag">css</li>
+              <li class="tag">JavaScript</li>
+              <li class="tag">html</li>
+            </ul>
+            <button
+              type="button"
+              class="card-btn project-btn"
+              data-projectId="6"
+            >
+              See Project
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about-me">
+      <h2>About me</h2>
+      <p>
+        I can help you build a product, feature or website Look through some of
+        my work and experience! If you like what you see and have a project you
+        need coded, don’t hestiate to contact me.
+      </p>
+      <a href="https://docs.google.com/document/d/1dnXFKChJz_GgVp_nb21SCL2nyEamS07nP4Kj4KwjXIo/edit?usp=sharing" target="_blank"><button type="button" class="btn">Get My Resume</button></a>
+      <ul id="about-me-ul">
+        <li class="about-me-li">
+          <img src="Images/icon-languages.png" alt="languages icon" />
+          <h3>Languages</h3>
+          <ul class="tags-flex-container">
+            <li class="White-tag">JavaScript</li>
+            <li class="White-tag">Ruby</li>
+            <li class="White-tag">Html</li>
+            <li class="White-tag">Css</li>
+          </ul>
+        </li>
+        <li  class="about-me-li">
+          <img src="Images/icon-frameworks.png" alt="frameworks icon" />
+          <h3>Frameworks</h3>
+          <ul class="tags-flex-container">
+            <li class="White-tag">Bootstrap</li>
+            <li class="White-tag">Ruby on rails</li>
+            <li class="White-tag">RSpec</li>
+            <li class="White-tag">Css</li>
+            <li class="White-tag">Selenium</li>
+          </ul>
+        </li>
+        <li class="about-me-li">
+          <img src="Images/icon-skills.png" alt="skills icon" />
+          <h3>Skills</h3>
+          <ul class="tags-flex-container">
+            <li class="White-tag">Codekit</li>
+            <li class="White-tag">GitHub</li>
+            <li class="White-tag">Codepen</li>
+            <li class="White-tag">Css</li>
+            <li class="White-tag">GitHub</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+    <footer id="footer-section">
+      <p class="footer-description">
+        I'm always interested in hearing about new projects, so if you'd like to
+        chat please get in touch.
+      </p>
+      <form
+        action="https://formspree.io/f/mjvzvgkl"
+        method="post"
+        id="footer-form"
+      >
+        <ul id="form-items">
+          <li class="form-items-li">
+            <input
+              type="text"
+              name="fullName"
+              id="fullName"
+              placeholder="Full name"
+              maxlength="30"
+              class="input-forms"
+              required
+            />
+          </li>
+          <li class="form-items-li">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email address"
+              class="input-forms"
+              required
+            />
+          </li>
+          <li class="form-items-li">
+            <textarea
+              name="userComment"
+              id="userComment"
+              maxlength="500"
+              placeholder="Enter text here"
+              required
+            ></textarea>
+          </li>
+        </ul>
+        <p class="email-error"></p>
+        <button type="submit" class="btn btn-success">Get in touch</button>
+      </form>
+
+      <ul class="social-ul" id="footer-icons">
+        <li>
+          <a href="#"><img src="Images/twitter.svg" alt="twitter icon" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="Images/Linkedin.svg" alt="linkedin icon" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="Images/medium.svg" alt="medium icon" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="Images/github.svg" alt="github icon" /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img src="Images/angellist.svg" alt="angellist icon"
+          /></a>
+        </li>
+      </ul>
+      <p id="footer-email">JohnJack0126@email.com</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
